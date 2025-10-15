@@ -9,8 +9,8 @@ export default function EmployeeCard2() {
         <h2 className="text-lg font-semibold">{name}</h2>
         <p className="text-sm text-slate-300 mt-1">{title}</p>
       </div>
-      <div className="border border-stone-300 p-4 w-2/3 text-sm text-black">
-        <p>{bio}</p>
+      <div className="border border-slate-300 rounded-r-full text-sm text-black">
+        <p className="m-4">{bio}</p>
       </div>
     </div>
   );

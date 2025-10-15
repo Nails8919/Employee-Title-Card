@@ -5,7 +5,7 @@ export default function EmployeeCard3(){
 
   return (
     <div className="flex flex-col items-start max-w-lg mx-auto">
-      <div className="bg-pink-500 text-white p-4 w-full rounded-t-lg text-center">
+      <div className="bg-pink-500 text-white p-4 w-full rounded-r-lg rounded-tl-lg text-center">
         {bio}
       </div>
       <div className="bg-pink-100 p-3 rounded-b-lg border border-pink-300 -mt-0 ml-0 shadow-sm">
