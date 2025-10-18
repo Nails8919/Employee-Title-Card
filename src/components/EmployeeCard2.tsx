@@ -5,7 +5,7 @@ export default function EmployeeCard2() {
 
   return (
     <div className="flex max-w-2xl mx-auto rounded-r-full shadow-md overflow-hidden">
-      <div className="bg-blue-600 rounded-s-md text-white p-6 w-1/2">
+      <div className="bg-blue-600 rounded-s-md text-white p-6 w-[400px] flex flex-col justify-center items-center">
         <h2 className="text-lg font-semibold">{name}</h2>
         <p className="text-sm text-slate-300 mt-1">{title}</p>
       </div>

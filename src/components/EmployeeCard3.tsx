@@ -4,11 +4,11 @@ export default function EmployeeCard3(){
   const bio = "Creates user-friendly interfaces and visual designs.";
 
   return (
-    <div className="flex flex-col items-start max-w-lg mx-auto">
+    <div className="flex flex-col items-start max-w-lg mx-auto w-[400px]">
       <div className="bg-pink-500 text-white p-4 w-full rounded-r-lg rounded-tl-lg text-center">
         {bio}
       </div>
-      <div className="bg-pink-100 p-3 rounded-b-lg border border-pink-300 shadow-sm">
+      <div className="bg-pink-100 p-3 rounded-b-lg border border-pink-300 shadow-sm text-center">
         <h2 className="text-pink-700 font-medium">{name}</h2>
         <p className="text-sm text-pink-600">{title}</p>
       </div>
